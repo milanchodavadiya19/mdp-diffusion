@@ -7,12 +7,12 @@ This repository contains extensive codebase for all 4 algorithms mentioned in th
 
 ## Run in a Free GPU powered Gradient Notebook
 
-[![Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/ashutosh1919/mdp-diffusion?machine=Free-GPU)
+[![Gradient](https://assets.paperspace.io/img/gradient-badge.svg)]
 
 
 ## Setup
 
-The file `installations.sh` contains all the necessary code to install required dependencies. This method doesn't require any training but the inference will be very costly and time consuming on CPU since diffusion models are too heavy. Thus, it is good to have CUDA support. Also, you may require different version of `torch` based on the version of CUDA. If you are running this on [Paperspace](https://www.paperspace.com/), then the default version of CUDA is 11.6 which is compatible with this code. If you are running it somewhere else, please check your CUDA version using `nvcc --version`. If the version differs from ours, you may want to change versions of PyTorch libraries in the first line of `installations.sh` by looking at [compatibility table](https://github.com/pytorch/pytorch/wiki/PyTorch-Versions).
+The file `installations.sh` contains all the necessary code to install required dependencies. This method doesn't require any training but the inference will be very costly and time consuming on CPU since diffusion models are too heavy. Thus, it is good to have CUDA support. Also, you may require different version of `torch` based on the version of CUDA. If you are running this on [Paperspace](https://www.paperspace.com/), then the default version of CUDA is 11.6 which is compatible with this code. If you are running it somewhere else, please check your CUDA version using `nvcc --version`. If the version differs from ours, you may want to change versions of PyTorch libraries in the first line of `installations.sh` by looking at [compatibility table].
 
 To install all the dependencies, run below command:
 
